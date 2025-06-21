@@ -1,0 +1,8 @@
+.vscode/
+.venv/
+__pycache__/
+.env
+*.pyc
+*.pkl
+*.db
+resources/vectorstore/

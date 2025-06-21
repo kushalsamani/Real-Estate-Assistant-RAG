@@ -1,0 +1,10 @@
+beautifulsoup4==4.13.4
+chromadb==1.0.12
+lxml==5.4.0
+langchain==0.3.26
+langchain_chroma==0.2.4
+langchain_community==0.3.26
+langchain_groq==0.3.2
+langchain_huggingface==0.3.0
+python-dotenv==1.1.0
+streamlit==1.46.0
