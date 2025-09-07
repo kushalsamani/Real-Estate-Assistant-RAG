@@ -1,3 +1,12 @@
+import sys
+
+try:
+    import pysqlite3
+
+    sys.modules["sqlite3"] = pysqlite3
+except ImportError:
+    raise RuntimeError("pysqlite3 is required for ChromaDB on some systems")
+
 from uuid import uuid4
 from dotenv import load_dotenv
 from pathlib import Path
